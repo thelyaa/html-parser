@@ -1,0 +1,31 @@
+{
+  "name": "echat-html-parser",
+  "version": "1.0.9",
+  "description": "html parser (for echat formatting)",
+  "main": "dist/index",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "start": "ts-node dist/index.js",
+    "build": "tsc"
+  },
+  "license": "ISC",
+  "devDependencies": {
+    "@types/jsdom": "^21.1.7",
+    "@types/node": "^20.14.9",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.16.2",
+    "typescript": "^5.5.2"
+  },
+  "dependencies": {
+    "jsdom": "^24.1.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thelyaa/html-parser.git"
+  },
+  "author": "thelyaa",
+  "bugs": {
+    "url": "https://github.com/thelyaa/html-parser/issues"
+  },
+  "homepage": "https://github.com/thelyaa/html-parser#readme"
+}
